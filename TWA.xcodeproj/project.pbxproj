@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EC3E220BBDE4C108725AF36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2059F950A814E348A5728B5 /* libPods.a */; };
+		D908D07E197C1D56008C290F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D07D197C1D56008C290F /* Accelerate.framework */; };
+		D908D080197C1D87008C290F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D07F197C1D87008C290F /* Accounts.framework */; };
+		D908D082197C1D91008C290F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D081197C1D91008C290F /* AddressBook.framework */; };
+		D908D087197C1E1C008C290F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D086197C1E1C008C290F /* AudioToolbox.framework */; };
+		D908D089197C1E35008C290F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D088197C1E35008C290F /* CFNetwork.framework */; };
+		D908D08B197C1E52008C290F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D08A197C1E52008C290F /* CoreLocation.framework */; };
+		D908D08D197C1E83008C290F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D08C197C1E83008C290F /* libz.1.1.3.dylib */; };
+		D908D08F197C1EA3008C290F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D08E197C1EA3008C290F /* MobileCoreServices.framework */; };
+		D908D091197C1EEE008C290F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D090197C1EEE008C290F /* QuartzCore.framework */; };
+		D908D093197C1F05008C290F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D092197C1F05008C290F /* Security.framework */; };
+		D908D095197C1F3A008C290F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D094197C1F3A008C290F /* StoreKit.framework */; };
+		D908D097197C1F5E008C290F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D908D096197C1F5E008C290F /* SystemConfiguration.framework */; };
+		D908D0AA197C66FA008C290F /* TWATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D908D0A9197C66FA008C290F /* TWATableViewController.m */; };
 		D95A9DA81976FF17003E787D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DA71976FF17003E787D /* Foundation.framework */; };
 		D95A9DAA1976FF17003E787D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DA91976FF17003E787D /* CoreGraphics.framework */; };
 		D95A9DAC1976FF17003E787D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DAB1976FF17003E787D /* UIKit.framework */; };
@@ -19,8 +33,6 @@
 		D95A9DC71976FF17003E787D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DC61976FF17003E787D /* XCTest.framework */; };
 		D95A9DC81976FF17003E787D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DA71976FF17003E787D /* Foundation.framework */; };
 		D95A9DC91976FF17003E787D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95A9DAB1976FF17003E787D /* UIKit.framework */; };
-		D95A9DD11976FF17003E787D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D95A9DCF1976FF17003E787D /* InfoPlist.strings */; };
-		D95A9DD31976FF17003E787D /* TWATests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95A9DD21976FF17003E787D /* TWATests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2453370C6F1845B591294A87 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D2059F950A814E348A5728B5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D908D07D197C1D56008C290F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D908D07F197C1D87008C290F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D908D081197C1D91008C290F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D908D083197C1DCF008C290F /* TWA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TWA.xcodeproj; sourceTree = "<group>"; };
+		D908D086197C1E1C008C290F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D908D088197C1E35008C290F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D908D08A197C1E52008C290F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D908D08C197C1E83008C290F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		D908D08E197C1EA3008C290F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D908D090197C1EEE008C290F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D908D092197C1F05008C290F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D908D094197C1F3A008C290F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D908D096197C1F5E008C290F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D908D0A8197C66FA008C290F /* TWATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWATableViewController.h; path = ../TWATableViewController.h; sourceTree = "<group>"; };
+		D908D0A9197C66FA008C290F /* TWATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWATableViewController.m; path = ../TWATableViewController.m; sourceTree = "<group>"; };
 		D95A9DA41976FF17003E787D /* TWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95A9DA71976FF17003E787D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D95A9DA91976FF17003E787D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,9 +79,6 @@
 		D95A9DBF1976FF17003E787D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D95A9DC51976FF17003E787D /* TWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95A9DC61976FF17003E787D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D95A9DCE1976FF17003E787D /* TWATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWATests-Info.plist"; sourceTree = "<group>"; };
-		D95A9DD01976FF17003E787D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D95A9DD21976FF17003E787D /* TWATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWATests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +86,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D908D097197C1F5E008C290F /* SystemConfiguration.framework in Frameworks */,
+				D908D095197C1F3A008C290F /* StoreKit.framework in Frameworks */,
+				D908D093197C1F05008C290F /* Security.framework in Frameworks */,
+				D908D091197C1EEE008C290F /* QuartzCore.framework in Frameworks */,
+				D908D08F197C1EA3008C290F /* MobileCoreServices.framework in Frameworks */,
+				D908D08D197C1E83008C290F /* libz.1.1.3.dylib in Frameworks */,
+				D908D08B197C1E52008C290F /* CoreLocation.framework in Frameworks */,
+				D908D089197C1E35008C290F /* CFNetwork.framework in Frameworks */,
+				D908D087197C1E1C008C290F /* AudioToolbox.framework in Frameworks */,
+				D908D082197C1D91008C290F /* AddressBook.framework in Frameworks */,
+				D908D080197C1D87008C290F /* Accounts.framework in Frameworks */,
+				D908D07E197C1D56008C290F /* Accelerate.framework in Frameworks */,
 				D95A9DAA1976FF17003E787D /* CoreGraphics.framework in Frameworks */,
 				D95A9DAC1976FF17003E787D /* UIKit.framework in Frameworks */,
 				D95A9DA81976FF17003E787D /* Foundation.framework in Frameworks */,
+				7EC3E220BBDE4C108725AF36 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +118,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D908D084197C1DCF008C290F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D95A9D9B1976FF17003E787D = {
 			isa = PBXGroup;
 			children = (
 				D95A9DAD1976FF17003E787D /* TWA */,
-				D95A9DCC1976FF17003E787D /* TWATests */,
 				D95A9DA61976FF17003E787D /* Frameworks */,
 				D95A9DA51976FF17003E787D /* Products */,
+				2453370C6F1845B591294A87 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,24 @@
 		D95A9DA61976FF17003E787D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D908D096197C1F5E008C290F /* SystemConfiguration.framework */,
+				D908D094197C1F3A008C290F /* StoreKit.framework */,
+				D908D092197C1F05008C290F /* Security.framework */,
+				D908D090197C1EEE008C290F /* QuartzCore.framework */,
+				D908D08E197C1EA3008C290F /* MobileCoreServices.framework */,
+				D908D08C197C1E83008C290F /* libz.1.1.3.dylib */,
+				D908D08A197C1E52008C290F /* CoreLocation.framework */,
+				D908D088197C1E35008C290F /* CFNetwork.framework */,
+				D908D086197C1E1C008C290F /* AudioToolbox.framework */,
+				D908D083197C1DCF008C290F /* TWA.xcodeproj */,
+				D908D081197C1D91008C290F /* AddressBook.framework */,
+				D908D07F197C1D87008C290F /* Accounts.framework */,
+				D908D07D197C1D56008C290F /* Accelerate.framework */,
 				D95A9DA71976FF17003E787D /* Foundation.framework */,
 				D95A9DA91976FF17003E787D /* CoreGraphics.framework */,
 				D95A9DAB1976FF17003E787D /* UIKit.framework */,
 				D95A9DC61976FF17003E787D /* XCTest.framework */,
+				D2059F950A814E348A5728B5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +175,8 @@
 				D95A9DB61976FF17003E787D /* TWAppDelegate.h */,
 				D95A9DB71976FF17003E787D /* TWAppDelegate.m */,
 				D95A9DB91976FF17003E787D /* Main.storyboard */,
+				D908D0A8197C66FA008C290F /* TWATableViewController.h */,
+				D908D0A9197C66FA008C290F /* TWATableViewController.m */,
 				D95A9DBC1976FF17003E787D /* TWViewController.h */,
 				D95A9DBD1976FF17003E787D /* TWViewController.m */,
 				D95A9DBF1976FF17003E787D /* Images.xcassets */,
@@ -134,24 +196,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D95A9DCC1976FF17003E787D /* TWATests */ = {
-			isa = PBXGroup;
-			children = (
-				D95A9DD21976FF17003E787D /* TWATests.m */,
-				D95A9DCD1976FF17003E787D /* Supporting Files */,
-			);
-			path = TWATests;
-			sourceTree = "<group>";
-		};
-		D95A9DCD1976FF17003E787D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D95A9DCE1976FF17003E787D /* TWATests-Info.plist */,
-				D95A9DCF1976FF17003E787D /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D95A9DD61976FF17003E787D /* Build configuration list for PBXNativeTarget "TWA" */;
 			buildPhases = (
+				0ACD2B17786C4A3EA4093504 /* Check Pods Manifest.lock */,
 				D95A9DA01976FF17003E787D /* Sources */,
 				D95A9DA11976FF17003E787D /* Frameworks */,
 				D95A9DA21976FF17003E787D /* Resources */,
+				26D3BD8D1DA242199A74845D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +262,12 @@
 			mainGroup = D95A9D9B1976FF17003E787D;
 			productRefGroup = D95A9DA51976FF17003E787D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D908D084197C1DCF008C290F /* Products */;
+					ProjectRef = D908D083197C1DCF008C290F /* TWA.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D95A9DA31976FF17003E787D /* TWA */,
@@ -239,11 +291,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95A9DD11976FF17003E787D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACD2B17786C4A3EA4093504 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26D3BD8D1DA242199A74845D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D95A9DA01976FF17003E787D /* Sources */ = {
@@ -252,6 +336,7 @@
 			files = (
 				D95A9DB41976FF17003E787D /* main.m in Sources */,
 				D95A9DB81976FF17003E787D /* TWAppDelegate.m in Sources */,
+				D908D0AA197C66FA008C290F /* TWATableViewController.m in Sources */,
 				D95A9DBE1976FF17003E787D /* TWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95A9DD31976FF17003E787D /* TWATests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +373,6 @@
 				D95A9DBA1976FF17003E787D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D95A9DCF1976FF17003E787D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D95A9DD01976FF17003E787D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,6 +450,7 @@
 		};
 		D95A9DD71976FF17003E787D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2453370C6F1845B591294A87 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +464,7 @@
 		};
 		D95A9DD81976FF17003E787D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2453370C6F1845B591294A87 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +535,7 @@
 				D95A9DD81976FF17003E787D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95A9DD91976FF17003E787D /* Build configuration list for PBXNativeTarget "TWATests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +544,7 @@
 				D95A9DDB1976FF17003E787D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
